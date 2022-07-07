@@ -26,16 +26,16 @@ search()
 # Magic Number Exercise
 # Do the Following:
     # Choose any number and add 2 to it.
-x<- 5
-x+2
-y<- x+2
     # Multiply the result by 3.
-7*3
-z<- y*3
     # Subtract 6 from the answer.
-21-6
-f<- z-6
     # Divide what you get by 3.
-15/3
-x<- f/3
 # you should end up with the same number that you started with
+
+x<- 5
+y<- x+2
+z<- y*3
+f<- z-6
+x<- f/3
+
+((5+2)*3-6)/3
+# x<- 5, same number after this series of operations
